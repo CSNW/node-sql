@@ -5,7 +5,8 @@ var testDir = path.dirname(require.main.filename);
 
 var directories = [
   testDir,
-  testDir + '/postgres'
+  testDir + '/postgres',
+  testDir + '/sqlite'
 ];
 
 directories.forEach(function (d) {
